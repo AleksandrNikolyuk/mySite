@@ -1,0 +1,197 @@
+@import (reference, less) '../styles/0.variables.less';
+
+.skillPage {
+    // width: 100vw;
+    // min-height: 1000px;
+    padding: 50px 160px 0 160px;
+    box-sizing: border-box;
+    background-color: @fon_colorSecond;
+}
+
+.mySkills {
+    // height: 100vw;
+    // min-height:
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: row;
+}
+.leftSide {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+}
+.rightSide {
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+}
+.sectionBlock {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+}
+.sectionName {
+    font-size: 51px;
+    font-weight: bold;
+    color: #fff;
+}
+.skillOption {
+    margin-top: 37px;
+    display: flex;
+    flex-direction: row;
+}
+.skillOptionName {
+    display: flex;
+    flex-direction: column;
+
+    &__item {
+        padding: 0;
+        margin-bottom: 25px;
+        font-size: 25px;
+        font-weight: bold;
+        color: #fff;
+    }
+}
+.skillOptionLevel {
+    margin-left: 35px;
+    width: 375px;
+    display: flex;
+    flex-direction: column;
+
+    &__item {
+        margin-bottom: 28px;
+        padding: 1px;
+        box-sizing: border-box;
+        height: 25px;
+        display: flex;
+        flex-direction: row;
+        background: #fff;
+    }
+}
+.levelHtmlNow {
+    width: 300px;
+    display: flex;
+    background-color: @ballColorOne;
+}
+.levelLessNow {
+    width: 185px;
+    display: flex;
+    background-color: @ballColorOne;
+}
+.levelBemNow {
+    width: 150px;
+    display: flex;
+    background-color: @ballColorOne;
+}
+.levelPixelNow {
+    width: 225px;
+    display: flex;
+    background-color: @ballColorOne; 
+}
+.levelGulpNow {
+    width: 225px;
+    display: flex;
+    background-color: @ballColorOne; 
+}
+.levelGitNow {
+    width: 225px;
+    display: flex;
+    background-color: @ballColorOne;
+}
+.levelGitSoon {
+    width: 75px;
+    display: flex;
+    background-color: @soonLevel;
+}
+.levelQANow {
+    width: 300px;
+    display: flex;
+    background-color: @ballColorOne;
+}
+.levelScrumNow {
+    width: 250px;
+    display: flex;
+    background-color: @ballColorOne;
+}
+.levelCuriosityNow {
+    width: 300px;
+    display: flex;
+    background-color: @ballColorOne;
+}
+.levelCuriositySoon {
+    width: 75px;
+    display: flex;
+    background-color: @soonLevel;
+}
+.levelBaseNow {
+    width: 150px;
+    display: flex;
+    background-color: @ballColorOne;
+}
+.levelBaseSoon {
+    width: 60px;
+    display: flex;
+    background-color: @soonLevel;
+}
+.levelEsNow {
+    width: 110px;
+    display: flex;
+    background-color: @ballColorOne;
+}
+.levelEsSoon {
+    width: 75px;
+    display: flex;
+    background-color: @soonLevel;
+}
+.levelWebpackNow {
+    width: 130px;
+    display: flex;
+    background-color: @ballColorOne; 
+}
+.levelWebpackSoon {
+    width: 80px;
+    display: flex;
+    background-color: @soonLevel;   
+}
+.levelReactSoon {
+    width: 75px;
+    display: flex;
+    background-color: @soonLevel;
+}
+.levelVueSoon {
+    width: 75px;
+    display: flex;
+    background-color: @soonLevel;
+}
+.skillOptionProject {
+    margin-left: 30px;
+    display: flex;
+    flex-direction: column;
+
+    &__item {
+        padding: 0;
+        margin-bottom: 25px;
+        font-size: 25px;
+        font-weight: bold;
+        color: #fff;
+    }
+}
+.blockNextPage {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.nextNameWork {
+    font-size: 28px;
+    color: #fff;
+}
+
+.nextImagThreeWork {
+    animation: showImagThree 0.75s infinite;
+    .svg-11;
+}
+@keyframes showImagThree {
+    0% {opacity: 0}
+    100% {opacity: 1}
+}

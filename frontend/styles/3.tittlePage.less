@@ -1,0 +1,107 @@
+@import (reference, less) '../styles/0.variables.less';
+
+.tittleBlock {
+    display: flex;
+    justify-content: center;
+}
+.tittlePage {
+    width: 70%;
+    // height: 100vw;
+    display: flex;
+    padding: 0 160px;
+    box-sizing: border-box;
+    
+}
+.photo {
+    width: 30%;
+    display: flex;
+    background-image: url('../images/iam.jpg');
+    background-size: cover;
+    box-sizing: border-box;
+    background-repeat: no-repeat;
+    background-size: 73%;
+    background-position: bottom center;
+}
+.performance {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    
+}
+.social {
+    margin-top: 180px;
+    display: flex;
+    flex-direction: column;
+
+    &__email {
+        font-size: 32px;
+        text-decoration: underline;
+
+        &-color {
+            color: @mailColor;
+        }
+    }
+    &__icons {
+        margin-top: 31px;
+        display: flex;
+
+        .github {
+            margin-right: 51px;
+            .svg-git;
+        }
+        .linkedin {
+            margin-right: 51px;
+            .svg-linkid;
+        }
+        .facebook {
+            .svg-facebook;
+        }
+    }
+}
+.blockNext {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+.next {
+    width: 130px;
+    height: 72px;
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    // justify-content: center;
+}
+.nextName {
+    font-size: 28px;
+    color: @title_color;
+}
+.nextImag {
+    margin-left: 50px;
+    margin-top: 3px;
+    display: flex;
+    flex-direction: column;
+}
+.nextImagOne {
+    animation: showImagOne 0.7s infinite;
+    .svg-first;
+}
+@keyframes showImagOne {
+    0%{ opacity: 0}
+    100%{opacity: 1}
+}
+.nextImagTwo {
+    animation: showImagTwo 0.73s infinite;
+    .svg-second;
+}
+@keyframes showImagTwo {
+    0%{ opacity: 0}
+    100%{ opacity: 1}
+}
+.nextImagThree {
+    animation: showImagThree 0.75s infinite;
+    .svg-third;
+}
+@keyframes showImagThree {
+    0% {opacity: 0}
+    100% {opacity: 1}
+}

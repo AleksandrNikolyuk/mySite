@@ -1,0 +1,57 @@
+@import (reference, less) '../styles/0.variables.less';
+
+.blockFooter{
+    height: 130px;
+    padding: 0px 160px 0 160px;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: @fon_footer; 
+}
+.author {
+    font-size: 28px;
+    font-weight: bold;
+}
+.top {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    cursor: pointer;
+
+    &__text {
+        font-size: 28px;
+        font-weight: bold;
+        color: #000;
+    }
+    &__image {
+        height: 50px;
+        margin-left: 20px;
+        display: flex;
+        flex-direction: column;
+    }
+}
+.imageItemOne {
+    animation: showImagOne 0.75s infinite;
+    .svg-footerImag;
+}
+@keyframes showImagOne {
+    0%{ opacity: 0}
+    100%{opacity: 1}
+}
+.imageItemTwo {
+    animation: imageItemTwo 0.73s infinite;
+    .svg-footerImag;
+}
+@keyframes imageItemTwo {
+    0%{ opacity: 0}
+    100%{opacity: 1}
+}
+.imageItemThree {
+    animation: imageItemThree 0.7s infinite;
+    .svg-footerImag;
+}
+@keyframes imageItemThree {
+    0%{ opacity: 0}
+    100%{opacity: 1}
+}
